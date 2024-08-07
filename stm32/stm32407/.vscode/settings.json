@@ -1,0 +1,54 @@
+{
+    "files.associations": {
+        "LCD.C": "cpp",
+        "tim_exti.h": "c",
+        "lcd.h": "c",
+        "lcd_spi_169.h": "c",
+        "pwm.h": "c",
+        "filter.h": "c",
+        "common_filter.h": "c",
+        "mpu6050.h": "c",
+        "myiic.h": "c",
+        "inv_mpu.h": "c",
+        "dmpkey.h": "c",
+        "dmpmap.h": "c",
+        "inv_mpu_dmp_motion_driver.h": "c",
+        "stm32f4xx.h": "c",
+        "sys.h": "c",
+        "lcd_fonts.h": "c",
+        "lcd_image.h": "c",
+        "usart.h": "c",
+        "delay.h": "c",
+        "cmath": "c",
+        "cstdio": "c",
+        "stdarg.h": "c",
+        "limits": "c",
+        "encoder.h": "c",
+        "led.h": "c",
+        "timer.h": "c",
+        "control.h": "c",
+        "stdio.h": "c",
+        "pid.h": "c",
+        "key.h": "c",
+        "oled.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "运行",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "同步",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ]
+}
